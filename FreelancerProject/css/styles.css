@@ -1,0 +1,68 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 1rem 0;
+    background: #ffffff;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    list-style: none;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.Top, .Content, .Footer {
+    width: 940px;
+    margin: auto;
+}
+
+.Top {
+    z-index: 4;
+
+}
+
+.Wrapper_top {
+    left: 0px;
+    top: 0px;
+    width: inherit;
+    height: 1055px;
+    background: url("../img/hero_foto.png"), rgba(49, 74, 91, 0.70);
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-position: center;
+    background-blend-mode: luminosity;
+    z-index: 2;
+}
+
+.Wrapper_top_mid {
+    width: inherit;
+    height: inherit;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 3;
+}
+
+.red_point {
+    color: red;
+}

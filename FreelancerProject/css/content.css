@@ -1,0 +1,131 @@
+.snippets {
+    margin-top: 45px;
+    width: inherit;
+    height: 200px;
+}
+
+.column_left, .column_center, .column_right {
+    margin: 5px 0px 0px 0px;
+    padding-left: 0px;
+    padding-right: 25px;
+}
+.column_left {
+    float: left;
+    width: 33%;
+}
+
+.column_right {
+    float: right;
+    width: 33%;
+}
+
+.column_center{
+    display: inline-block;
+    width: 33%;
+}
+
+.column_title {
+    font-family: "OpenSans", sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    line-height: 1.1em;
+    text-align: left;
+    text-transform: uppercase;
+
+    color: #314a5b;
+    margin: 0px 80px 25px 0px;
+   /* padding-top: 25px;
+    margin-right: 75px;*/
+}
+
+.column_title::first-line {
+    margin-right: 250px;
+}
+
+.column_content {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    color: rgb(154, 160, 171);
+    line-height: 1.1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.read_more_bottom {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    color: rgb(240, 69, 76);
+}
+
+.rarrow_icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.portfolio {
+    padding-top: 5em;
+    width: inherit;
+    height: 450px;
+}
+.portfolio_sec {
+    padding-top: 1em;
+    padding-right: 0px;
+    display: inline-block;
+    width: 50%;
+}
+
+.pic_macbook {
+    padding-left: 0;
+    padding-top: 1em;
+    float: left;
+    width: 50%;
+
+}
+
+.portfolio_title {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(49, 74, 91);
+    line-height: 1.104;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bolder;
+    white-space: pre-line;
+}
+
+.portfolio_subtitle {
+    font-family: "Open Sans";
+    color: rgb(49, 74, 91);
+    font-size: 15px;
+    font-weight: bolder;
+    line-height: 2;
+}
+
+.portfolio_content, .team_subtitle {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: rgb(154, 160, 171);
+    line-height: 1.1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.our_team_sec {
+    width: inherit;
+    margin-top: 2em;
+    height: 400px;
+}
+
+.team_title {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(49, 74, 91);
+    line-height: 1.104;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: bolder;
+    white-space: pre-line;
+}

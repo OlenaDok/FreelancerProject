@@ -1,0 +1,62 @@
+.snippet_content_left {
+    float: left;
+    width: 50%;
+}
+
+#pl {
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: inset 0px 5px 9px 0px rgba(1, 1, 1, 0.06);
+}
+
+.snippet_content_right {
+    display: inline-block;
+    float: right;
+    width: 50%;
+}
+
+.column_subtitle {
+    margin-top: 0;
+    margin-right: 0;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(49, 74, 91);
+    line-height: 1.104;
+    text-align: left;
+    font-size: 13px;
+    font-weight: normal;
+    white-space: pre-line;
+}
+
+.team_details {
+    margin: 10px 0px 30px 840px;
+}
+
+.divider {
+    border-top: 1px solid #8c8b8b;
+}
+
+.bottom {
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+}
+.Footer {
+    opacity: 0.4;
+
+}
+.bottom::after {
+    content: "";
+    display: inline-block;
+}
+
+.icon_bottom {
+    margin: 5px 8px 8px 5px;
+}
+
+.author {
+    font-family: "Montserrat", sans-serif;
+    float: right;
+    font-size: 13px;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+}
